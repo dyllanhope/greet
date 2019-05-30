@@ -1,4 +1,5 @@
-// const chalk = require('chalk');
+"use strict";
+const chalk = require('chalk');
 
 const greet = require('./greet');
 
@@ -14,6 +15,6 @@ figlet.text(greet('Dyllan'), {
 		console.log(err);
 		return;
 	}	
-	console.log(data)
+	console.log(chalk.bgBlack.green(data));
 })
 
