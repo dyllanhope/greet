@@ -7,7 +7,7 @@ var figlet = require('figlet');
 
 figlet.text(greet('Dyllan'), {
 	font: 'ANSI Shadow',
-    horizontalLayout: 'fitted',
+    horizontalLayout: 'default',
     verticalLayout: 'default'
 },function(err, data){
 	if(err){
